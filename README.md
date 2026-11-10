@@ -117,6 +117,8 @@ B.Tech – Artificial Intelligence and Data Science
 This project is developed for educational and portfolio purposes. It is a prototype and is not currently intended for real hospital operations or handling real patient information.
 ## 📸 Project Screenshots
 
+## 📸 Project Screenshots
+
 ### Home Page
 ![Home Page](screenshots/home.png)
 
