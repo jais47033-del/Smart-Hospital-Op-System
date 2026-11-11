@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartCare Hospital</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f8fc;
+            color: #26364a;
+        }
+
+        nav {
+            background: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px #dce5ef;
+        }
+
+        nav h2 {
+            color: #087f8c;
+        }
+
+        nav span {
+            color: #123c69;
+            font-size: 14px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 75px 20px;
+            background: linear-gradient(135deg, #123c69, #087f8c);
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 38px;
+            margin-bottom: 18px;
+        }
+
+        .hero p {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .services {
+            padding: 55px 8%;
+            text-align: center;
+        }
+
+        .services h2 {
+            color: #123c69;
+            margin-bottom: 35px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            width: 270px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px #dce5ef;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-7px);
+        }
+
+        .icon {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #123c69;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            color: #64748b;
+            line-height: 1.5;
+            margin-bottom: 22px;
+        }
+
+        .card a {
+            display: inline-block;
+            background: #087f8c;
+            color: white;
+            padding: 12px 22px;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .card a:hover {
+            background: #055c66;
+        }
+
+        footer {
+            background: #123c69;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+
+            nav {
+                padding: 18px 5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>✚ SmartCare</h2>
+        <span>Hospital OP Token System</span>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to SmartCare Hospital</h1>
+
+        <p>
+            Smart appointments. Digital tokens.
+            Less waiting, better healthcare.
+        </p>
+    </section>
+
+    <section class="services">
+
+        <h2>Our Services</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">📅</div>
+                <h3>Book Appointment</h3>
+                <p>Book your hospital appointment and receive your OP token instantly.</p>
+                <a href="/booking">Book Now</a>
+            </div>
+
+            <div class="card">
+                <div class="icon">🎫</div>
+                <h3>Track Your Token</h3>
+                <p>Check your appointment status using your token number.</p>
+                <a href="/track">Track Token</a>
+            </div>
+
+            <div class="card">
+                <div class="icon">🏥</div>
+                <h3>Admin Dashboard</h3>
+                <p>Manage patient appointments and control the waiting queue.</p>
+                <a href="/admin">Admin Login</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 SmartCare Hospital | Smart Hospital OP Token System</p>
+    </footer>
+
+</body>
+</html>
